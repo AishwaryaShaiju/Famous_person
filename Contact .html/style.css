@@ -1,0 +1,99 @@
+/* Created by: Aishwarya Kavalakkal Shaiju*/
+/* Student Number: 8829570*/
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        font-size: 16px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    label {
+        font-size: 0.9rem;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+    button {
+        padding: 8px 16px;
+    }
+    
+    aside {
+        background-image: url('../images/Wiiliam Shakespear.jpeg'); 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    body {
+        font-size: 14px;
+    }
+    
+    .form-group {
+        margin-bottom: 10px;
+    }
+    label {
+        font-size: 0.8rem;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+        font-size: 0.8rem;
+        padding: 6px;
+    }
+    button {
+        padding: 6px 12px;
+    }
+    
+    aside {
+        background-image: url('../images/Wiiliam Shakespear.jpeg'); 
+    }
+}

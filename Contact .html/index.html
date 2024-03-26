@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Historical Figure</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css"> 
+</head>
+<body>
+    <header>
+        <h1>Contact - William Shakespeare</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="Gallery.html"> Gallery </a></li>
+            <li><a href="Contact.html"> Contact </a></li>
+            <li><a href="Media.html"> Media </a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            
+            <form id="contactForm"  method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div class="form-group">
+                    <label for="color">Favorite Color:</label>
+                    <input type="color" id="color" name="color">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="General Inquiry">General Inquiry</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Support">Support</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <aside>
+        <h2>Additional Information</h2>
+        <ul>
+           <li><a href="https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/william-shakespeare/when-was-shakespeare-born/" target="_blank">When was Shakespeare Born</a></li>
+    
+           <li><a href="https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/william-shakespeare/shakespeares-school/" target="_blank">Shakeshear's School</a></li>
+    
+           <li><a href="https://www.history.com/topics/european-history/william-shakespeare#section_3/" target="_blank"> Notable Works</a></li>
+       </ul>
+    </aside>
+    <footer>
+        <p>&copy; 2024 Historical Figure Website</p>
+    </footer>
+</body>
+</html>

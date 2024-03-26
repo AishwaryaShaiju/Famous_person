@@ -1,0 +1,100 @@
+/* Created by: Aishwarya Kavalakkal Shaiju*/
+/* Student Number: 8829570*/
+
+h1,h2 {
+    color: brown;
+font-variant: small-caps;
+}
+
+body{
+    width: fit-content;
+    max-width: 900px;
+    margin: auto;
+    font: 20px/1.5 Arial, sans-serif;
+    padding: 20px;
+}
+.xyz{
+    border: 6px solid black;
+    border-radius: 12px;
+    padding: 0.5px;
+    margin: 1px;
+}
+
+footer{
+    font-size: medium;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+ header{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+ }
+ main{
+    float: left;
+    width: 450px;
+}
+aside{
+    float: right;
+    width: 390px;
+}
+figcaption{
+    font-weight: bolder;
+    font-weight: bold;
+    font-variant: small-caps
+}
+ul li{
+    list-style: none;
+    line-height: 2;
+    padding: 0px;
+}
+ul > li > a {
+    text-decoration: none;
+    color: aqua;
+    float: right;
+}
+
+footer{
+    clear: both;
+}
+.xyz2{ 
+    border: 5px solid black;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: large;
+}
+img- .xyz{ 
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+h2{
+    float: right;
+}
+ 
+header,
+footer {
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+aside {
+    background-image: url('../images/Wiiliam Shakespear.jpeg'); 
+    background-size: cover;
+    padding: 20px;
+    color: white;
+}
+ 
+  
+ 
+ 
+
